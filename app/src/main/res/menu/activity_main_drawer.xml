@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/getWork"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="Заказать" />
+        <item
+            android:id="@+id/histori"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="История" />
+        <item
+
+            android:id="@+id/drivers"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="Водители" />
+        <item
+            android:id="@+id/worked"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="Заказчики" />
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ETDriverSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Фамилия"
+                android:inputType="textCapWords|textPersonName" />
+
+            <EditText
+
+                android:id="@+id/ETDriverName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Имя"
+                android:inputType="textCapWords|textPersonName" />
+
+            <EditText
+                android:id="@+id/ETDriverPatro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Отчество"
+                android:inputType="textCapWords|textPersonName" />
+
+            <EditText
+
+                android:id="@+id/ETDriverTonnag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Тоннаж"
+                android:inputType="textPersonName|number" />
+
+            <EditText
+                android:id="@+id/ETDriverCubage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Кубатура"
+                android:inputType="textPersonName|number" />
+
+            <EditText
+                android:id="@+id/ETDriverPal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Палеты"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/ETDriverPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Номер телефона +7(999)999-99-99"
+                android:inputType="number|phone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
